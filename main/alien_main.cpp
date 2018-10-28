@@ -8,6 +8,7 @@
 */
 
 #include <iostream>
+#include "keyboard.h"
 
 using std::cout;
 using std::endl;
@@ -35,6 +36,8 @@ protected:
     int m_arg;
 };
 
+QueueHandle_t qh;
+
 /* Inside .cpp file, app_main function must be declared with C linkage */
 extern "C" void app_main()
 {
@@ -51,6 +54,21 @@ extern "C" void app_main()
     } catch (const runtime_error &e) {
         cout << "Exception caught: " << e.what() << endl;
     }
-
+    qh = xQueueCreate(10,sizeof(uint8_t));
+    KeyboardConfig_t keyCfg;
+    keyCfg.query = &qh;
+    keyCfg.channel = ADC1_CHANNEL_6;
+    keyCfg.delay = 200;
+    keyboard_run(keyCfg);
+    uint8_t buf;
+    for(;;){
+        BaseType_t res = xQueueReceive(qh,&buf,portMAX_DELAY);
+        if( res == pdTRUE){
+            cout << "Received:"<<((int)buf)<<endl;
+        }else{
+            cout<<"queue timeout"<<endl;
+        }
+       // vTaskDelay(1000 /  portTICK_PERIOD_MS);
+    }
     cout << "app_main done" << endl;
 }

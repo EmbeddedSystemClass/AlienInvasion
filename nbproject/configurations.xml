@@ -993,6 +993,16 @@
           <in>sdkconfig.h</in>
         </df>
       </df>
+      <df name="components">
+        <df name="keyboard">
+          <df name="include">
+            <in>CKeyboard.h</in>
+            <in>keyboard.cpp</in>
+            <in>keyboard.h</in>
+          </df>
+          <in>CKeyboard.cpp</in>
+        </df>
+      </df>
       <df name="main">
         <in>alien_main.cpp</in>
       </df>
@@ -1025,6 +1035,27 @@
           <buildCommand>${MAKE} -f Makefile</buildCommand>
           <cleanCommand>${MAKE} -f Makefile clean</cleanCommand>
           <executablePath></executablePath>
+          <cTool>
+            <incDir>
+              <pElem>../esp-idf/components</pElem>
+            </incDir>
+          </cTool>
+          <ccTool>
+            <incDir>
+              <pElem>../esp-idf/components</pElem>
+              <pElem>../esp-idf/components/freertos/include</pElem>
+              <pElem>../esp-idf/components/driver/include</pElem>
+              <pElem>../../../../opt/xtensa-esp32-elf/xtensa-esp32-elf/include</pElem>
+              <pElem>../../../../opt/xtensa-esp32-elf/xtensa-esp32-elf/include/c++/5.2.0</pElem>
+              <pElem>../../../../opt/xtensa-esp32-elf/lib/gcc/xtensa-esp32-elf/5.2.0/include</pElem>
+              <pElem>../esp-idf/components/esp32/include</pElem>
+              <pElem>../esp-idf/components/soc/include</pElem>
+              <pElem>../esp-idf/components/soc/esp32/include</pElem>
+              <pElem>../esp-idf/components/heap/include</pElem>
+              <pElem>../../../../opt/xtensa-esp32-elf/lib/gcc/xtensa-esp32-elf/5.2.0/include-fixed</pElem>
+              <pElem>../../../../opt/xtensa-esp32-elf/xtensa-esp32-elf/include/c++/5.2.0/xtensa-esp32-elf/bits</pElem>
+            </incDir>
+          </ccTool>
         </makeTool>
         <preBuild>
           <preBuildCommandWorkingDir>.</preBuildCommandWorkingDir>
@@ -2202,6 +2233,23 @@
             flavor2="0">
       </item>
       <item path="build/include/sdkconfig.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="components/keyboard/CKeyboard.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="components/keyboard/include/CKeyboard.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="components/keyboard/include/keyboard.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="components/keyboard/include/keyboard.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
       </item>
       <item path="main/alien_main.cpp" ex="false" tool="1" flavor2="0">
       </item>

@@ -1116,6 +1116,8 @@
           <df name="cJSON">
           </df>
         </df>
+        <df name="keyboard">
+        </df>
         <df name="libsodium">
           <df name="libsodium">
             <df name="src">
@@ -1373,6 +1375,17 @@
           </df>
         </df>
         <df name="xtensa-debug-module">
+        </df>
+      </df>
+      <df name="components">
+        <df name="keyboard">
+          <df name="include">
+            <in>CKeyboard.h</in>
+            <in>keyboard.cpp</in>
+            <in>keyboard.h</in>
+          </df>
+          <in>CKeyboard.cpp</in>
+          <in>keyboard.cpp</in>
         </df>
       </df>
       <df name="main">
