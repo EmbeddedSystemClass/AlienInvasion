@@ -1,0 +1,2210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="100">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <df root="." name="0">
+      <df name="build">
+        <df name="include">
+          <df name="config">
+            <df name="adc">
+              <df name="cal">
+                <df name="efuse">
+                  <df name="tp">
+                    <in>enable.h</in>
+                  </df>
+                  <df name="vref">
+                    <in>enable.h</in>
+                  </df>
+                </df>
+                <df name="lut">
+                  <in>enable.h</in>
+                </df>
+              </df>
+            </df>
+            <df name="adc2">
+              <df name="disable">
+                <in>dac.h</in>
+              </df>
+            </df>
+            <df name="bootloader">
+              <df name="vddsdio">
+                <df name="boost">
+                  <df name="1">
+                    <in>9v.h</in>
+                  </df>
+                </df>
+              </df>
+              <df name="wdt">
+                <df name="time">
+                  <in>ms.h</in>
+                </df>
+                <in>enable.h</in>
+              </df>
+            </df>
+            <df name="brownout">
+              <df name="det">
+                <df name="lvl">
+                  <df name="sel">
+                    <in>0.h</in>
+                  </df>
+                </df>
+                <in>lvl.h</in>
+              </df>
+              <in>det.h</in>
+            </df>
+            <df name="bt">
+              <df name="reserve">
+                <in>dram.h</in>
+              </df>
+            </df>
+            <df name="btdm">
+              <df name="controller">
+                <df name="ble">
+                  <df name="max">
+                    <df name="conn">
+                      <in>eff.h</in>
+                    </df>
+                  </df>
+                </df>
+                <df name="br">
+                  <df name="edr">
+                    <df name="max">
+                      <df name="acl">
+                        <df name="conn">
+                          <in>eff.h</in>
+                        </df>
+                      </df>
+                      <df name="sync">
+                        <df name="conn">
+                          <in>eff.h</in>
+                        </df>
+                      </df>
+                    </df>
+                  </df>
+                </df>
+                <df name="pinned">
+                  <df name="to">
+                    <in>core.h</in>
+                  </df>
+                </df>
+              </df>
+            </df>
+            <df name="console">
+              <df name="uart">
+                <in>baudrate.h</in>
+                <in>default.h</in>
+                <in>num.h</in>
+              </df>
+            </df>
+            <df name="cxx">
+              <df name="exceptions">
+                <df name="emg">
+                  <df name="pool">
+                    <in>size.h</in>
+                  </df>
+                </df>
+              </df>
+              <in>exceptions.h</in>
+            </df>
+            <df name="dma">
+              <df name="rx">
+                <df name="buf">
+                  <in>num.h</in>
+                </df>
+              </df>
+              <df name="tx">
+                <df name="buf">
+                  <in>num.h</in>
+                </df>
+              </df>
+            </df>
+            <df name="emac">
+              <df name="check">
+                <df name="link">
+                  <df name="period">
+                    <in>ms.h</in>
+                  </df>
+                </df>
+              </df>
+              <df name="task">
+                <df name="stack">
+                  <in>size.h</in>
+                </df>
+                <in>priority.h</in>
+              </df>
+            </df>
+            <df name="esp">
+              <df name="err">
+                <df name="to">
+                  <df name="name">
+                    <in>lookup.h</in>
+                  </df>
+                </df>
+              </df>
+              <df name="gratuitous">
+                <in>arp.h</in>
+              </df>
+              <df name="http">
+                <df name="client">
+                  <df name="enable">
+                    <in>https.h</in>
+                  </df>
+                </df>
+              </df>
+            </df>
+            <df name="esp32">
+              <df name="apptrace">
+                <df name="dest">
+                  <in>none.h</in>
+                </df>
+                <df name="lock">
+                  <in>enable.h</in>
+                </df>
+              </df>
+              <df name="debug">
+                <df name="stubs">
+                  <in>enable.h</in>
+                </df>
+                <in>ocdaware.h</in>
+              </df>
+              <df name="deep">
+                <df name="sleep">
+                  <df name="wakeup">
+                    <in>delay.h</in>
+                  </df>
+                </df>
+              </df>
+              <df name="default">
+                <df name="cpu">
+                  <df name="freq">
+                    <in>160.h</in>
+                    <in>mhz.h</in>
+                  </df>
+                </df>
+              </df>
+              <df name="enable">
+                <df name="coredump">
+                  <df name="to">
+                    <in>none.h</in>
+                  </df>
+                </df>
+              </df>
+              <df name="panic">
+                <df name="print">
+                  <in>reboot.h</in>
+                </df>
+              </df>
+              <df name="phy">
+                <df name="calibration">
+                  <df name="and">
+                    <df name="data">
+                      <in>storage.h</in>
+                    </df>
+                  </df>
+                </df>
+                <df name="max">
+                  <df name="tx">
+                    <in>power.h</in>
+                  </df>
+                  <df name="wifi">
+                    <df name="tx">
+                      <in>power.h</in>
+                    </df>
+                  </df>
+                </df>
+              </df>
+              <df name="pthread">
+                <df name="task">
+                  <df name="prio">
+                    <in>default.h</in>
+                  </df>
+                  <df name="stack">
+                    <df name="size">
+                      <in>default.h</in>
+                    </df>
+                  </df>
+                </df>
+              </df>
+              <df name="rtc">
+                <df name="clk">
+                  <df name="cal">
+                    <in>cycles.h</in>
+                  </df>
+                </df>
+                <df name="clock">
+                  <df name="source">
+                    <df name="internal">
+                      <in>rc.h</in>
+                    </df>
+                  </df>
+                </df>
+              </df>
+              <df name="time">
+                <df name="syscall">
+                  <df name="use">
+                    <df name="rtc">
+                      <in>frc1.h</in>
+                    </df>
+                  </df>
+                </df>
+              </df>
+              <df name="wifi">
+                <df name="ampdu">
+                  <df name="rx">
+                    <in>enabled.h</in>
+                  </df>
+                  <df name="tx">
+                    <in>enabled.h</in>
+                  </df>
+                </df>
+                <df name="dynamic">
+                  <df name="rx">
+                    <df name="buffer">
+                      <in>num.h</in>
+                    </df>
+                  </df>
+                  <df name="tx">
+                    <df name="buffer">
+                      <in>num.h</in>
+                    </df>
+                    <in>buffer.h</in>
+                  </df>
+                </df>
+                <df name="nvs">
+                  <in>enabled.h</in>
+                </df>
+                <df name="rx">
+                  <df name="ba">
+                    <in>win.h</in>
+                  </df>
+                </df>
+                <df name="softap">
+                  <df name="beacon">
+                    <df name="max">
+                      <in>len.h</in>
+                    </df>
+                  </df>
+                </df>
+                <df name="static">
+                  <df name="rx">
+                    <df name="buffer">
+                      <in>num.h</in>
+                    </df>
+                  </df>
+                </df>
+                <df name="task">
+                  <df name="pinned">
+                    <df name="to">
+                      <df name="core">
+                        <in>0.h</in>
+                      </df>
+                    </df>
+                  </df>
+                </df>
+                <df name="tx">
+                  <df name="ba">
+                    <in>win.h</in>
+                  </df>
+                  <df name="buffer">
+                    <in>type.h</in>
+                  </df>
+                </df>
+              </df>
+              <df name="xtal">
+                <df name="freq">
+                  <in>40.h</in>
+                </df>
+                <in>freq.h</in>
+              </df>
+            </df>
+            <df name="esptoolpy">
+              <df name="after">
+                <in>reset.h</in>
+              </df>
+              <df name="baud">
+                <df name="other">
+                  <in>val.h</in>
+                </df>
+                <in>115200b.h</in>
+              </df>
+              <df name="before">
+                <in>reset.h</in>
+              </df>
+              <df name="flashfreq">
+                <in>40m.h</in>
+              </df>
+              <df name="flashsize">
+                <in>4mb.h</in>
+                <in>detect.h</in>
+              </df>
+              <in>after.h</in>
+              <in>baud.h</in>
+              <in>before.h</in>
+              <in>compressed.h</in>
+              <in>flashfreq.h</in>
+              <in>flashmode.h</in>
+              <in>flashsize.h</in>
+              <in>port.h</in>
+            </df>
+            <df name="fatfs">
+              <df name="codepage">
+                <in>437.h</in>
+              </df>
+              <df name="fs">
+                <in>lock.h</in>
+              </df>
+              <df name="lfn">
+                <in>none.h</in>
+              </df>
+              <df name="per">
+                <df name="file">
+                  <in>cache.h</in>
+                </df>
+              </df>
+              <df name="timeout">
+                <in>ms.h</in>
+              </df>
+              <in>codepage.h</in>
+            </df>
+            <df name="flashmode">
+              <in>dio.h</in>
+            </df>
+            <df name="four">
+              <df name="universal">
+                <df name="mac">
+                  <in>address.h</in>
+                </df>
+              </df>
+            </df>
+            <df name="freertos">
+              <df name="assert">
+                <df name="fail">
+                  <in>abort.h</in>
+                </df>
+                <df name="on">
+                  <df name="untested">
+                    <in>function.h</in>
+                  </df>
+                </df>
+              </df>
+              <df name="check">
+                <df name="stackoverflow">
+                  <in>canary.h</in>
+                </df>
+              </df>
+              <df name="coretimer">
+                <in>0.h</in>
+              </df>
+              <df name="idle">
+                <df name="task">
+                  <in>stacksize.h</in>
+                </df>
+              </df>
+              <df name="interrupt">
+                <in>backtrace.h</in>
+              </df>
+              <df name="isr">
+                <in>stacksize.h</in>
+              </df>
+              <df name="max">
+                <df name="task">
+                  <df name="name">
+                    <in>len.h</in>
+                  </df>
+                </df>
+              </df>
+              <df name="no">
+                <in>affinity.h</in>
+              </df>
+              <df name="queue">
+                <df name="registry">
+                  <in>size.h</in>
+                </df>
+              </df>
+              <df name="task">
+                <df name="function">
+                  <in>wrapper.h</in>
+                </df>
+              </df>
+              <df name="thread">
+                <df name="local">
+                  <df name="storage">
+                    <in>pointers.h</in>
+                  </df>
+                </df>
+              </df>
+              <in>hz.h</in>
+            </df>
+            <df name="garp">
+              <df name="tmr">
+                <in>interval.h</in>
+              </df>
+            </df>
+            <df name="heap">
+              <df name="poisoning">
+                <in>disabled.h</in>
+              </df>
+            </df>
+            <df name="httpd">
+              <df name="max">
+                <df name="req">
+                  <df name="hdr">
+                    <in>len.h</in>
+                  </df>
+                </df>
+                <df name="uri">
+                  <in>len.h</in>
+                </df>
+              </df>
+            </df>
+            <df name="int">
+              <df name="wdt">
+                <df name="check">
+                  <in>cpu1.h</in>
+                </df>
+                <df name="timeout">
+                  <in>ms.h</in>
+                </df>
+              </df>
+              <in>wdt.h</in>
+            </df>
+            <df name="ip">
+              <df name="lost">
+                <df name="timer">
+                  <in>interval.h</in>
+                </df>
+              </df>
+            </df>
+            <df name="ipc">
+              <df name="task">
+                <df name="stack">
+                  <in>size.h</in>
+                </df>
+              </df>
+            </df>
+            <df name="libsodium">
+              <df name="use">
+                <df name="mbedtls">
+                  <in>sha.h</in>
+                </df>
+              </df>
+            </df>
+            <df name="log">
+              <df name="bootloader">
+                <df name="level">
+                  <in>info.h</in>
+                </df>
+                <in>level.h</in>
+              </df>
+              <df name="default">
+                <df name="level">
+                  <in>info.h</in>
+                </df>
+                <in>level.h</in>
+              </df>
+              <in>colors.h</in>
+            </df>
+            <df name="lwip">
+              <df name="dhcp">
+                <df name="does">
+                  <df name="arp">
+                    <in>check.h</in>
+                  </df>
+                </df>
+                <df name="max">
+                  <df name="ntp">
+                    <in>servers.h</in>
+                  </df>
+                </df>
+              </df>
+              <df name="dhcps">
+                <df name="lease">
+                  <in>unit.h</in>
+                </df>
+                <df name="max">
+                  <df name="station">
+                    <in>num.h</in>
+                  </df>
+                </df>
+              </df>
+              <df name="loopback">
+                <df name="max">
+                  <in>pbufs.h</in>
+                </df>
+              </df>
+              <df name="max">
+                <df name="active">
+                  <in>tcp.h</in>
+                </df>
+                <df name="listening">
+                  <in>tcp.h</in>
+                </df>
+                <df name="raw">
+                  <in>pcbs.h</in>
+                </df>
+                <df name="udp">
+                  <in>pcbs.h</in>
+                </df>
+                <in>sockets.h</in>
+              </df>
+              <df name="netif">
+                <in>loopback.h</in>
+              </df>
+              <df name="so">
+                <df name="reuse">
+                  <in>rxtoall.h</in>
+                </df>
+                <in>reuse.h</in>
+              </df>
+            </df>
+            <df name="main">
+              <df name="task">
+                <df name="stack">
+                  <in>size.h</in>
+                </df>
+              </df>
+            </df>
+            <df name="make">
+              <df name="warn">
+                <df name="undefined">
+                  <in>variables.h</in>
+                </df>
+              </df>
+            </df>
+            <df name="mbedtls">
+              <df name="aes">
+                <in>c.h</in>
+              </df>
+              <df name="ccm">
+                <in>c.h</in>
+              </df>
+              <df name="ecdh">
+                <in>c.h</in>
+              </df>
+              <df name="ecdsa">
+                <in>c.h</in>
+              </df>
+              <df name="ecp">
+                <df name="dp">
+                  <df name="bp256r1">
+                    <in>enabled.h</in>
+                  </df>
+                  <df name="bp384r1">
+                    <in>enabled.h</in>
+                  </df>
+                  <df name="bp512r1">
+                    <in>enabled.h</in>
+                  </df>
+                  <df name="curve25519">
+                    <in>enabled.h</in>
+                  </df>
+                  <df name="secp192k1">
+                    <in>enabled.h</in>
+                  </df>
+                  <df name="secp192r1">
+                    <in>enabled.h</in>
+                  </df>
+                  <df name="secp224k1">
+                    <in>enabled.h</in>
+                  </df>
+                  <df name="secp224r1">
+                    <in>enabled.h</in>
+                  </df>
+                  <df name="secp256k1">
+                    <in>enabled.h</in>
+                  </df>
+                  <df name="secp256r1">
+                    <in>enabled.h</in>
+                  </df>
+                  <df name="secp384r1">
+                    <in>enabled.h</in>
+                  </df>
+                  <df name="secp521r1">
+                    <in>enabled.h</in>
+                  </df>
+                </df>
+                <df name="nist">
+                  <in>optim.h</in>
+                </df>
+                <in>c.h</in>
+              </df>
+              <df name="gcm">
+                <in>c.h</in>
+              </df>
+              <df name="hardware">
+                <in>aes.h</in>
+              </df>
+              <df name="have">
+                <in>time.h</in>
+              </df>
+              <df name="internal">
+                <df name="mem">
+                  <in>alloc.h</in>
+                </df>
+              </df>
+              <df name="key">
+                <df name="exchange">
+                  <df name="dhe">
+                    <in>rsa.h</in>
+                  </df>
+                  <df name="ecdh">
+                    <in>ecdsa.h</in>
+                    <in>rsa.h</in>
+                  </df>
+                  <df name="ecdhe">
+                    <in>ecdsa.h</in>
+                    <in>rsa.h</in>
+                  </df>
+                  <df name="elliptic">
+                    <in>curve.h</in>
+                  </df>
+                  <in>rsa.h</in>
+                </df>
+              </df>
+              <df name="pem">
+                <df name="parse">
+                  <in>c.h</in>
+                </df>
+                <df name="write">
+                  <in>c.h</in>
+                </df>
+              </df>
+              <df name="rc4">
+                <in>disabled.h</in>
+              </df>
+              <df name="ssl">
+                <df name="max">
+                  <df name="content">
+                    <in>len.h</in>
+                  </df>
+                </df>
+                <df name="proto">
+                  <df name="tls1">
+                    <in>1.h</in>
+                    <in>2.h</in>
+                  </df>
+                  <in>tls1.h</in>
+                </df>
+                <df name="session">
+                  <in>tickets.h</in>
+                </df>
+                <in>alpn.h</in>
+                <in>renegotiation.h</in>
+              </df>
+              <df name="tls">
+                <df name="server">
+                  <df name="and">
+                    <in>client.h</in>
+                  </df>
+                </df>
+                <in>client.h</in>
+                <in>enabled.h</in>
+                <in>server.h</in>
+              </df>
+              <df name="x509">
+                <df name="crl">
+                  <df name="parse">
+                    <in>c.h</in>
+                  </df>
+                </df>
+                <df name="csr">
+                  <df name="parse">
+                    <in>c.h</in>
+                  </df>
+                </df>
+              </df>
+            </df>
+            <df name="mdns">
+              <df name="max">
+                <in>services.h</in>
+              </df>
+            </df>
+            <df name="monitor">
+              <df name="baud">
+                <df name="other">
+                  <in>val.h</in>
+                </df>
+                <in>115200b.h</in>
+              </df>
+              <in>baud.h</in>
+            </df>
+            <df name="mqtt">
+              <df name="protocol">
+                <in>311.h</in>
+              </df>
+              <df name="transport">
+                <df name="websocket">
+                  <in>secure.h</in>
+                </df>
+                <in>ssl.h</in>
+                <in>websocket.h</in>
+              </df>
+            </df>
+            <df name="newlib">
+              <df name="stdin">
+                <df name="line">
+                  <df name="ending">
+                    <in>cr.h</in>
+                  </df>
+                </df>
+              </df>
+              <df name="stdout">
+                <df name="line">
+                  <df name="ending">
+                    <in>crlf.h</in>
+                  </df>
+                </df>
+              </df>
+            </df>
+            <df name="number">
+              <df name="of">
+                <df name="universal">
+                  <df name="mac">
+                    <in>address.h</in>
+                  </df>
+                </df>
+              </df>
+            </df>
+            <df name="openssl">
+              <df name="assert">
+                <df name="do">
+                  <in>nothing.h</in>
+                </df>
+              </df>
+            </df>
+            <df name="optimization">
+              <df name="assertions">
+                <in>enabled.h</in>
+              </df>
+              <df name="level">
+                <in>debug.h</in>
+              </df>
+            </df>
+            <df name="partition">
+              <df name="table">
+                <df name="custom">
+                  <in>filename.h</in>
+                </df>
+                <df name="single">
+                  <in>app.h</in>
+                </df>
+                <in>filename.h</in>
+                <in>md5.h</in>
+                <in>offset.h</in>
+              </df>
+            </df>
+            <df name="pthread">
+              <df name="stack">
+                <in>min.h</in>
+              </df>
+            </df>
+            <df name="reduce">
+              <df name="phy">
+                <df name="tx">
+                  <in>power.h</in>
+                </df>
+              </df>
+            </df>
+            <df name="spi">
+              <df name="flash">
+                <df name="rom">
+                  <df name="driver">
+                    <in>patch.h</in>
+                  </df>
+                </df>
+                <df name="writing">
+                  <df name="dangerous">
+                    <df name="regions">
+                      <in>aborts.h</in>
+                    </df>
+                  </df>
+                </df>
+              </df>
+              <df name="master">
+                <df name="isr">
+                  <df name="in">
+                    <in>iram.h</in>
+                  </df>
+                </df>
+              </df>
+              <df name="slave">
+                <df name="isr">
+                  <df name="in">
+                    <in>iram.h</in>
+                  </df>
+                </df>
+              </df>
+            </df>
+            <df name="spiffs">
+              <df name="cache">
+                <in>wr.h</in>
+              </df>
+              <df name="gc">
+                <df name="max">
+                  <in>runs.h</in>
+                </df>
+              </df>
+              <df name="max">
+                <in>partitions.h</in>
+              </df>
+              <df name="meta">
+                <in>length.h</in>
+              </df>
+              <df name="obj">
+                <df name="name">
+                  <in>len.h</in>
+                </df>
+              </df>
+              <df name="page">
+                <in>check.h</in>
+                <in>size.h</in>
+              </df>
+              <df name="use">
+                <df name="magic">
+                  <in>length.h</in>
+                </df>
+                <in>magic.h</in>
+                <in>mtime.h</in>
+              </df>
+              <in>cache.h</in>
+            </df>
+            <df name="stack">
+              <df name="check">
+                <in>none.h</in>
+              </df>
+            </df>
+            <df name="support">
+              <in>termios.h</in>
+            </df>
+            <df name="suppress">
+              <df name="select">
+                <df name="debug">
+                  <in>output.h</in>
+                </df>
+              </df>
+            </df>
+            <df name="system">
+              <df name="event">
+                <df name="queue">
+                  <in>size.h</in>
+                </df>
+                <df name="task">
+                  <df name="stack">
+                    <in>size.h</in>
+                  </df>
+                </df>
+              </df>
+            </df>
+            <df name="task">
+              <df name="wdt">
+                <df name="check">
+                  <df name="idle">
+                    <df name="task">
+                      <in>cpu0.h</in>
+                      <in>cpu1.h</in>
+                    </df>
+                  </df>
+                </df>
+                <df name="timeout">
+                  <in>s.h</in>
+                </df>
+              </df>
+              <in>wdt.h</in>
+            </df>
+            <df name="tcp">
+              <df name="oversize">
+                <in>mss.h</in>
+              </df>
+              <df name="queue">
+                <in>ooseq.h</in>
+              </df>
+              <df name="recvmbox">
+                <in>size.h</in>
+              </df>
+              <df name="snd">
+                <df name="buf">
+                  <in>default.h</in>
+                </df>
+              </df>
+              <df name="wnd">
+                <in>default.h</in>
+              </df>
+              <in>maxrtx.h</in>
+              <in>msl.h</in>
+              <in>mss.h</in>
+              <in>synmaxrtx.h</in>
+            </df>
+            <df name="tcpip">
+              <df name="recvmbox">
+                <in>size.h</in>
+              </df>
+              <df name="task">
+                <df name="affinity">
+                  <df name="no">
+                    <in>affinity.h</in>
+                  </df>
+                </df>
+                <df name="stack">
+                  <in>size.h</in>
+                </df>
+                <in>affinity.h</in>
+              </df>
+              <in>lwip.h</in>
+            </df>
+            <df name="timer">
+              <df name="queue">
+                <in>length.h</in>
+              </df>
+              <df name="task">
+                <df name="stack">
+                  <in>depth.h</in>
+                  <in>size.h</in>
+                </df>
+                <in>priority.h</in>
+              </df>
+            </df>
+            <df name="tracemem">
+              <df name="reserve">
+                <in>dram.h</in>
+              </df>
+            </df>
+            <df name="udp">
+              <df name="recvmbox">
+                <in>size.h</in>
+              </df>
+            </df>
+            <df name="ulp">
+              <df name="coproc">
+                <df name="reserve">
+                  <in>mem.h</in>
+                </df>
+              </df>
+            </df>
+            <df name="wl">
+              <df name="sector">
+                <df name="size">
+                  <in>4096.h</in>
+                </df>
+                <in>size.h</in>
+              </df>
+            </df>
+            <in>python.h</in>
+            <in>toolprefix.h</in>
+          </df>
+          <in>sdkconfig.h</in>
+        </df>
+      </df>
+      <df name="main">
+        <in>alien_main.cpp</in>
+      </df>
+    </df>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Важные файлы"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+      <itemPath>nbproject/private/launcher.properties</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <sourceFolderFilter>^(nbproject)$</sourceFolderFilter>
+  <sourceRootList>
+    <Elem>.</Elem>
+  </sourceRootList>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Default" type="0">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>false</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <codeAssistance>
+      </codeAssistance>
+      <makefileType>
+        <makeTool>
+          <buildCommandWorkingDir>.</buildCommandWorkingDir>
+          <buildCommand>${MAKE} -f Makefile</buildCommand>
+          <cleanCommand>${MAKE} -f Makefile clean</cleanCommand>
+          <executablePath></executablePath>
+        </makeTool>
+        <preBuild>
+          <preBuildCommandWorkingDir>.</preBuildCommandWorkingDir>
+          <preBuildCommand></preBuildCommand>
+        </preBuild>
+      </makefileType>
+      <item path="build/include/config/adc/cal/efuse/tp/enable.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="build/include/config/adc/cal/efuse/vref/enable.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="build/include/config/adc/cal/lut/enable.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="build/include/config/adc2/disable/dac.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="build/include/config/bootloader/vddsdio/boost/1/9v.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="build/include/config/bootloader/wdt/enable.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="build/include/config/bootloader/wdt/time/ms.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="build/include/config/brownout/det.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="build/include/config/brownout/det/lvl.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="build/include/config/brownout/det/lvl/sel/0.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="build/include/config/bt/reserve/dram.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="build/include/config/btdm/controller/ble/max/conn/eff.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="build/include/config/btdm/controller/br/edr/max/acl/conn/eff.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="build/include/config/btdm/controller/br/edr/max/sync/conn/eff.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="build/include/config/btdm/controller/pinned/to/core.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="build/include/config/console/uart/baudrate.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="build/include/config/console/uart/default.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="build/include/config/console/uart/num.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="build/include/config/cxx/exceptions.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="build/include/config/cxx/exceptions/emg/pool/size.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="build/include/config/dma/rx/buf/num.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="build/include/config/dma/tx/buf/num.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="build/include/config/emac/check/link/period/ms.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="build/include/config/emac/task/priority.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="build/include/config/emac/task/stack/size.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="build/include/config/esp/err/to/name/lookup.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="build/include/config/esp/gratuitous/arp.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="build/include/config/esp/http/client/enable/https.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="build/include/config/esp32/apptrace/dest/none.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="build/include/config/esp32/apptrace/lock/enable.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="build/include/config/esp32/debug/ocdaware.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="build/include/config/esp32/debug/stubs/enable.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="build/include/config/esp32/deep/sleep/wakeup/delay.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="build/include/config/esp32/default/cpu/freq/160.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="build/include/config/esp32/default/cpu/freq/mhz.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="build/include/config/esp32/enable/coredump/to/none.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="build/include/config/esp32/panic/print/reboot.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="build/include/config/esp32/phy/calibration/and/data/storage.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="build/include/config/esp32/phy/max/tx/power.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="build/include/config/esp32/phy/max/wifi/tx/power.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="build/include/config/esp32/pthread/task/prio/default.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="build/include/config/esp32/pthread/task/stack/size/default.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="build/include/config/esp32/rtc/clk/cal/cycles.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="build/include/config/esp32/rtc/clock/source/internal/rc.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="build/include/config/esp32/time/syscall/use/rtc/frc1.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="build/include/config/esp32/wifi/ampdu/rx/enabled.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="build/include/config/esp32/wifi/ampdu/tx/enabled.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="build/include/config/esp32/wifi/dynamic/rx/buffer/num.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="build/include/config/esp32/wifi/dynamic/tx/buffer.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="build/include/config/esp32/wifi/dynamic/tx/buffer/num.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="build/include/config/esp32/wifi/nvs/enabled.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="build/include/config/esp32/wifi/rx/ba/win.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="build/include/config/esp32/wifi/softap/beacon/max/len.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="build/include/config/esp32/wifi/static/rx/buffer/num.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="build/include/config/esp32/wifi/task/pinned/to/core/0.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="build/include/config/esp32/wifi/tx/ba/win.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="build/include/config/esp32/wifi/tx/buffer/type.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="build/include/config/esp32/xtal/freq.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="build/include/config/esp32/xtal/freq/40.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="build/include/config/esptoolpy/after.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="build/include/config/esptoolpy/after/reset.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="build/include/config/esptoolpy/baud.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="build/include/config/esptoolpy/baud/115200b.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="build/include/config/esptoolpy/baud/other/val.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="build/include/config/esptoolpy/before.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="build/include/config/esptoolpy/before/reset.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="build/include/config/esptoolpy/compressed.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="build/include/config/esptoolpy/flashfreq.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="build/include/config/esptoolpy/flashfreq/40m.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="build/include/config/esptoolpy/flashmode.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="build/include/config/esptoolpy/flashsize.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="build/include/config/esptoolpy/flashsize/4mb.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="build/include/config/esptoolpy/flashsize/detect.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="build/include/config/esptoolpy/port.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="build/include/config/fatfs/codepage.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="build/include/config/fatfs/codepage/437.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="build/include/config/fatfs/fs/lock.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="build/include/config/fatfs/lfn/none.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="build/include/config/fatfs/per/file/cache.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="build/include/config/fatfs/timeout/ms.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="build/include/config/flashmode/dio.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="build/include/config/four/universal/mac/address.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="build/include/config/freertos/assert/fail/abort.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="build/include/config/freertos/assert/on/untested/function.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="build/include/config/freertos/check/stackoverflow/canary.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="build/include/config/freertos/coretimer/0.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="build/include/config/freertos/hz.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="build/include/config/freertos/idle/task/stacksize.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="build/include/config/freertos/interrupt/backtrace.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="build/include/config/freertos/isr/stacksize.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="build/include/config/freertos/max/task/name/len.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="build/include/config/freertos/no/affinity.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="build/include/config/freertos/queue/registry/size.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="build/include/config/freertos/task/function/wrapper.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="build/include/config/freertos/thread/local/storage/pointers.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="build/include/config/garp/tmr/interval.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="build/include/config/heap/poisoning/disabled.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="build/include/config/httpd/max/req/hdr/len.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="build/include/config/httpd/max/uri/len.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="build/include/config/int/wdt.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="build/include/config/int/wdt/check/cpu1.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="build/include/config/int/wdt/timeout/ms.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="build/include/config/ip/lost/timer/interval.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="build/include/config/ipc/task/stack/size.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="build/include/config/libsodium/use/mbedtls/sha.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="build/include/config/log/bootloader/level.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="build/include/config/log/bootloader/level/info.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="build/include/config/log/colors.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="build/include/config/log/default/level.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="build/include/config/log/default/level/info.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="build/include/config/lwip/dhcp/does/arp/check.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="build/include/config/lwip/dhcp/max/ntp/servers.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="build/include/config/lwip/dhcps/lease/unit.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="build/include/config/lwip/dhcps/max/station/num.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="build/include/config/lwip/loopback/max/pbufs.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="build/include/config/lwip/max/active/tcp.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="build/include/config/lwip/max/listening/tcp.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="build/include/config/lwip/max/raw/pcbs.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="build/include/config/lwip/max/sockets.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="build/include/config/lwip/max/udp/pcbs.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="build/include/config/lwip/netif/loopback.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="build/include/config/lwip/so/reuse.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="build/include/config/lwip/so/reuse/rxtoall.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="build/include/config/main/task/stack/size.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="build/include/config/make/warn/undefined/variables.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="build/include/config/mbedtls/aes/c.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="build/include/config/mbedtls/ccm/c.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="build/include/config/mbedtls/ecdh/c.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="build/include/config/mbedtls/ecdsa/c.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="build/include/config/mbedtls/ecp/c.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="build/include/config/mbedtls/ecp/dp/bp256r1/enabled.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="build/include/config/mbedtls/ecp/dp/bp384r1/enabled.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="build/include/config/mbedtls/ecp/dp/bp512r1/enabled.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="build/include/config/mbedtls/ecp/dp/curve25519/enabled.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="build/include/config/mbedtls/ecp/dp/secp192k1/enabled.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="build/include/config/mbedtls/ecp/dp/secp192r1/enabled.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="build/include/config/mbedtls/ecp/dp/secp224k1/enabled.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="build/include/config/mbedtls/ecp/dp/secp224r1/enabled.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="build/include/config/mbedtls/ecp/dp/secp256k1/enabled.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="build/include/config/mbedtls/ecp/dp/secp256r1/enabled.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="build/include/config/mbedtls/ecp/dp/secp384r1/enabled.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="build/include/config/mbedtls/ecp/dp/secp521r1/enabled.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="build/include/config/mbedtls/ecp/nist/optim.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="build/include/config/mbedtls/gcm/c.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="build/include/config/mbedtls/hardware/aes.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="build/include/config/mbedtls/have/time.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="build/include/config/mbedtls/internal/mem/alloc.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="build/include/config/mbedtls/key/exchange/dhe/rsa.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="build/include/config/mbedtls/key/exchange/ecdh/ecdsa.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="build/include/config/mbedtls/key/exchange/ecdh/rsa.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="build/include/config/mbedtls/key/exchange/ecdhe/ecdsa.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="build/include/config/mbedtls/key/exchange/ecdhe/rsa.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="build/include/config/mbedtls/key/exchange/elliptic/curve.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="build/include/config/mbedtls/key/exchange/rsa.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="build/include/config/mbedtls/pem/parse/c.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="build/include/config/mbedtls/pem/write/c.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="build/include/config/mbedtls/rc4/disabled.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="build/include/config/mbedtls/ssl/alpn.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="build/include/config/mbedtls/ssl/max/content/len.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="build/include/config/mbedtls/ssl/proto/tls1.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="build/include/config/mbedtls/ssl/proto/tls1/1.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="build/include/config/mbedtls/ssl/proto/tls1/2.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="build/include/config/mbedtls/ssl/renegotiation.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="build/include/config/mbedtls/ssl/session/tickets.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="build/include/config/mbedtls/tls/client.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="build/include/config/mbedtls/tls/enabled.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="build/include/config/mbedtls/tls/server.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="build/include/config/mbedtls/tls/server/and/client.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="build/include/config/mbedtls/x509/crl/parse/c.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="build/include/config/mbedtls/x509/csr/parse/c.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="build/include/config/mdns/max/services.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="build/include/config/monitor/baud.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="build/include/config/monitor/baud/115200b.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="build/include/config/monitor/baud/other/val.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="build/include/config/mqtt/protocol/311.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="build/include/config/mqtt/transport/ssl.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="build/include/config/mqtt/transport/websocket.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="build/include/config/mqtt/transport/websocket/secure.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="build/include/config/newlib/stdin/line/ending/cr.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="build/include/config/newlib/stdout/line/ending/crlf.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="build/include/config/number/of/universal/mac/address.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="build/include/config/openssl/assert/do/nothing.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="build/include/config/optimization/assertions/enabled.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="build/include/config/optimization/level/debug.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="build/include/config/partition/table/custom/filename.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="build/include/config/partition/table/filename.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="build/include/config/partition/table/md5.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="build/include/config/partition/table/offset.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="build/include/config/partition/table/single/app.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="build/include/config/pthread/stack/min.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="build/include/config/python.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="build/include/config/reduce/phy/tx/power.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="build/include/config/spi/flash/rom/driver/patch.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="build/include/config/spi/flash/writing/dangerous/regions/aborts.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="build/include/config/spi/master/isr/in/iram.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="build/include/config/spi/slave/isr/in/iram.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="build/include/config/spiffs/cache.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="build/include/config/spiffs/cache/wr.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="build/include/config/spiffs/gc/max/runs.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="build/include/config/spiffs/max/partitions.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="build/include/config/spiffs/meta/length.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="build/include/config/spiffs/obj/name/len.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="build/include/config/spiffs/page/check.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="build/include/config/spiffs/page/size.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="build/include/config/spiffs/use/magic.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="build/include/config/spiffs/use/magic/length.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="build/include/config/spiffs/use/mtime.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="build/include/config/stack/check/none.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="build/include/config/support/termios.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="build/include/config/suppress/select/debug/output.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="build/include/config/system/event/queue/size.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="build/include/config/system/event/task/stack/size.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="build/include/config/task/wdt.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="build/include/config/task/wdt/check/idle/task/cpu0.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="build/include/config/task/wdt/check/idle/task/cpu1.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="build/include/config/task/wdt/timeout/s.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="build/include/config/tcp/maxrtx.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="build/include/config/tcp/msl.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="build/include/config/tcp/mss.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="build/include/config/tcp/oversize/mss.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="build/include/config/tcp/queue/ooseq.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="build/include/config/tcp/recvmbox/size.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="build/include/config/tcp/snd/buf/default.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="build/include/config/tcp/synmaxrtx.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="build/include/config/tcp/wnd/default.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="build/include/config/tcpip/lwip.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="build/include/config/tcpip/recvmbox/size.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="build/include/config/tcpip/task/affinity.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="build/include/config/tcpip/task/affinity/no/affinity.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="build/include/config/tcpip/task/stack/size.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="build/include/config/timer/queue/length.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="build/include/config/timer/task/priority.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="build/include/config/timer/task/stack/depth.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="build/include/config/timer/task/stack/size.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="build/include/config/toolprefix.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="build/include/config/tracemem/reserve/dram.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="build/include/config/udp/recvmbox/size.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="build/include/config/ulp/coproc/reserve/mem.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="build/include/config/wl/sector/size.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="build/include/config/wl/sector/size/4096.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="build/include/sdkconfig.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="main/alien_main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>

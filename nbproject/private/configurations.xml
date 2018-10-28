@@ -1,0 +1,1431 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="100">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <df root="." name="0">
+      <df name="build">
+        <df name="app_trace">
+          <df name="gcov">
+          </df>
+        </df>
+        <df name="app_update">
+        </df>
+        <df name="asio">
+          <df name="asio">
+            <df name="asio">
+              <df name="src">
+              </df>
+            </df>
+          </df>
+        </df>
+        <df name="aws_iot">
+        </df>
+        <df name="bootloader">
+          <df name="bootloader_support">
+            <df name="src">
+            </df>
+          </df>
+          <df name="esptool_py">
+          </df>
+          <df name="log">
+          </df>
+          <df name="main">
+          </df>
+          <df name="micro-ecc">
+            <df name="micro-ecc">
+            </df>
+          </df>
+          <df name="soc">
+            <df name="esp32">
+            </df>
+            <df name="src">
+            </df>
+          </df>
+          <df name="spi_flash">
+          </df>
+        </df>
+        <df name="bootloader_support">
+          <df name="src">
+          </df>
+        </df>
+        <df name="bt">
+        </df>
+        <df name="coap">
+          <df name="libcoap">
+            <df name="src">
+            </df>
+          </df>
+          <df name="port">
+          </df>
+        </df>
+        <df name="console">
+          <df name="argtable3">
+          </df>
+          <df name="linenoise">
+          </df>
+        </df>
+        <df name="cxx">
+        </df>
+        <df name="driver">
+        </df>
+        <df name="esp-tls">
+        </df>
+        <df name="esp32">
+          <df name="hwcrypto">
+          </df>
+        </df>
+        <df name="esp_adc_cal">
+        </df>
+        <df name="esp_http_client">
+          <df name="lib">
+          </df>
+        </df>
+        <df name="esp_https_ota">
+          <df name="src">
+          </df>
+        </df>
+        <df name="esp_ringbuf">
+        </df>
+        <df name="esptool_py">
+        </df>
+        <df name="ethernet">
+          <df name="eth_phy">
+          </df>
+        </df>
+        <df name="expat">
+          <df name="expat">
+            <df name="expat">
+              <df name="lib">
+              </df>
+            </df>
+          </df>
+          <df name="port">
+          </df>
+        </df>
+        <df name="fatfs">
+          <df name="src">
+            <df name="option">
+            </df>
+          </df>
+        </df>
+        <df name="freertos">
+        </df>
+        <df name="heap">
+        </df>
+        <df name="http_server">
+          <df name="src">
+            <df name="util">
+            </df>
+          </df>
+        </df>
+        <df name="idf_test">
+        </df>
+        <df name="include">
+          <df name="config">
+            <df name="adc">
+              <df name="cal">
+                <df name="efuse">
+                  <df name="tp">
+                    <in>enable.h</in>
+                  </df>
+                  <df name="vref">
+                    <in>enable.h</in>
+                  </df>
+                </df>
+                <df name="lut">
+                  <in>enable.h</in>
+                </df>
+              </df>
+            </df>
+            <df name="adc2">
+              <df name="disable">
+                <in>dac.h</in>
+              </df>
+            </df>
+            <df name="bootloader">
+              <df name="vddsdio">
+                <df name="boost">
+                  <df name="1">
+                    <in>9v.h</in>
+                  </df>
+                </df>
+              </df>
+              <df name="wdt">
+                <df name="time">
+                  <in>ms.h</in>
+                </df>
+                <in>enable.h</in>
+              </df>
+            </df>
+            <df name="brownout">
+              <df name="det">
+                <df name="lvl">
+                  <df name="sel">
+                    <in>0.h</in>
+                  </df>
+                </df>
+                <in>lvl.h</in>
+              </df>
+              <in>det.h</in>
+            </df>
+            <df name="bt">
+              <df name="reserve">
+                <in>dram.h</in>
+              </df>
+            </df>
+            <df name="btdm">
+              <df name="controller">
+                <df name="ble">
+                  <df name="max">
+                    <df name="conn">
+                      <in>eff.h</in>
+                    </df>
+                  </df>
+                </df>
+                <df name="br">
+                  <df name="edr">
+                    <df name="max">
+                      <df name="acl">
+                        <df name="conn">
+                          <in>eff.h</in>
+                        </df>
+                      </df>
+                      <df name="sync">
+                        <df name="conn">
+                          <in>eff.h</in>
+                        </df>
+                      </df>
+                    </df>
+                  </df>
+                </df>
+                <df name="pinned">
+                  <df name="to">
+                    <in>core.h</in>
+                  </df>
+                </df>
+              </df>
+            </df>
+            <df name="console">
+              <df name="uart">
+                <in>baudrate.h</in>
+                <in>default.h</in>
+                <in>num.h</in>
+              </df>
+            </df>
+            <df name="cxx">
+              <df name="exceptions">
+                <df name="emg">
+                  <df name="pool">
+                    <in>size.h</in>
+                  </df>
+                </df>
+              </df>
+              <in>exceptions.h</in>
+            </df>
+            <df name="dma">
+              <df name="rx">
+                <df name="buf">
+                  <in>num.h</in>
+                </df>
+              </df>
+              <df name="tx">
+                <df name="buf">
+                  <in>num.h</in>
+                </df>
+              </df>
+            </df>
+            <df name="emac">
+              <df name="check">
+                <df name="link">
+                  <df name="period">
+                    <in>ms.h</in>
+                  </df>
+                </df>
+              </df>
+              <df name="task">
+                <df name="stack">
+                  <in>size.h</in>
+                </df>
+                <in>priority.h</in>
+              </df>
+            </df>
+            <df name="esp">
+              <df name="err">
+                <df name="to">
+                  <df name="name">
+                    <in>lookup.h</in>
+                  </df>
+                </df>
+              </df>
+              <df name="gratuitous">
+                <in>arp.h</in>
+              </df>
+              <df name="http">
+                <df name="client">
+                  <df name="enable">
+                    <in>https.h</in>
+                  </df>
+                </df>
+              </df>
+            </df>
+            <df name="esp32">
+              <df name="apptrace">
+                <df name="dest">
+                  <in>none.h</in>
+                </df>
+                <df name="lock">
+                  <in>enable.h</in>
+                </df>
+              </df>
+              <df name="debug">
+                <df name="stubs">
+                  <in>enable.h</in>
+                </df>
+                <in>ocdaware.h</in>
+              </df>
+              <df name="deep">
+                <df name="sleep">
+                  <df name="wakeup">
+                    <in>delay.h</in>
+                  </df>
+                </df>
+              </df>
+              <df name="default">
+                <df name="cpu">
+                  <df name="freq">
+                    <in>160.h</in>
+                    <in>mhz.h</in>
+                  </df>
+                </df>
+              </df>
+              <df name="enable">
+                <df name="coredump">
+                  <df name="to">
+                    <in>none.h</in>
+                  </df>
+                </df>
+              </df>
+              <df name="panic">
+                <df name="print">
+                  <in>reboot.h</in>
+                </df>
+              </df>
+              <df name="phy">
+                <df name="calibration">
+                  <df name="and">
+                    <df name="data">
+                      <in>storage.h</in>
+                    </df>
+                  </df>
+                </df>
+                <df name="max">
+                  <df name="tx">
+                    <in>power.h</in>
+                  </df>
+                  <df name="wifi">
+                    <df name="tx">
+                      <in>power.h</in>
+                    </df>
+                  </df>
+                </df>
+              </df>
+              <df name="pthread">
+                <df name="task">
+                  <df name="prio">
+                    <in>default.h</in>
+                  </df>
+                  <df name="stack">
+                    <df name="size">
+                      <in>default.h</in>
+                    </df>
+                  </df>
+                </df>
+              </df>
+              <df name="rtc">
+                <df name="clk">
+                  <df name="cal">
+                    <in>cycles.h</in>
+                  </df>
+                </df>
+                <df name="clock">
+                  <df name="source">
+                    <df name="internal">
+                      <in>rc.h</in>
+                    </df>
+                  </df>
+                </df>
+              </df>
+              <df name="time">
+                <df name="syscall">
+                  <df name="use">
+                    <df name="rtc">
+                      <in>frc1.h</in>
+                    </df>
+                  </df>
+                </df>
+              </df>
+              <df name="wifi">
+                <df name="ampdu">
+                  <df name="rx">
+                    <in>enabled.h</in>
+                  </df>
+                  <df name="tx">
+                    <in>enabled.h</in>
+                  </df>
+                </df>
+                <df name="dynamic">
+                  <df name="rx">
+                    <df name="buffer">
+                      <in>num.h</in>
+                    </df>
+                  </df>
+                  <df name="tx">
+                    <df name="buffer">
+                      <in>num.h</in>
+                    </df>
+                    <in>buffer.h</in>
+                  </df>
+                </df>
+                <df name="nvs">
+                  <in>enabled.h</in>
+                </df>
+                <df name="rx">
+                  <df name="ba">
+                    <in>win.h</in>
+                  </df>
+                </df>
+                <df name="softap">
+                  <df name="beacon">
+                    <df name="max">
+                      <in>len.h</in>
+                    </df>
+                  </df>
+                </df>
+                <df name="static">
+                  <df name="rx">
+                    <df name="buffer">
+                      <in>num.h</in>
+                    </df>
+                  </df>
+                </df>
+                <df name="task">
+                  <df name="pinned">
+                    <df name="to">
+                      <df name="core">
+                        <in>0.h</in>
+                      </df>
+                    </df>
+                  </df>
+                </df>
+                <df name="tx">
+                  <df name="ba">
+                    <in>win.h</in>
+                  </df>
+                  <df name="buffer">
+                    <in>type.h</in>
+                  </df>
+                </df>
+              </df>
+              <df name="xtal">
+                <df name="freq">
+                  <in>40.h</in>
+                </df>
+                <in>freq.h</in>
+              </df>
+            </df>
+            <df name="esptoolpy">
+              <df name="after">
+                <in>reset.h</in>
+              </df>
+              <df name="baud">
+                <df name="other">
+                  <in>val.h</in>
+                </df>
+                <in>115200b.h</in>
+              </df>
+              <df name="before">
+                <in>reset.h</in>
+              </df>
+              <df name="flashfreq">
+                <in>40m.h</in>
+              </df>
+              <df name="flashsize">
+                <in>4mb.h</in>
+                <in>detect.h</in>
+              </df>
+              <in>after.h</in>
+              <in>baud.h</in>
+              <in>before.h</in>
+              <in>compressed.h</in>
+              <in>flashfreq.h</in>
+              <in>flashmode.h</in>
+              <in>flashsize.h</in>
+              <in>port.h</in>
+            </df>
+            <df name="fatfs">
+              <df name="codepage">
+                <in>437.h</in>
+              </df>
+              <df name="fs">
+                <in>lock.h</in>
+              </df>
+              <df name="lfn">
+                <in>none.h</in>
+              </df>
+              <df name="per">
+                <df name="file">
+                  <in>cache.h</in>
+                </df>
+              </df>
+              <df name="timeout">
+                <in>ms.h</in>
+              </df>
+              <in>codepage.h</in>
+            </df>
+            <df name="flashmode">
+              <in>dio.h</in>
+            </df>
+            <df name="four">
+              <df name="universal">
+                <df name="mac">
+                  <in>address.h</in>
+                </df>
+              </df>
+            </df>
+            <df name="freertos">
+              <df name="assert">
+                <df name="fail">
+                  <in>abort.h</in>
+                </df>
+                <df name="on">
+                  <df name="untested">
+                    <in>function.h</in>
+                  </df>
+                </df>
+              </df>
+              <df name="check">
+                <df name="stackoverflow">
+                  <in>canary.h</in>
+                </df>
+              </df>
+              <df name="coretimer">
+                <in>0.h</in>
+              </df>
+              <df name="idle">
+                <df name="task">
+                  <in>stacksize.h</in>
+                </df>
+              </df>
+              <df name="interrupt">
+                <in>backtrace.h</in>
+              </df>
+              <df name="isr">
+                <in>stacksize.h</in>
+              </df>
+              <df name="max">
+                <df name="task">
+                  <df name="name">
+                    <in>len.h</in>
+                  </df>
+                </df>
+              </df>
+              <df name="no">
+                <in>affinity.h</in>
+              </df>
+              <df name="queue">
+                <df name="registry">
+                  <in>size.h</in>
+                </df>
+              </df>
+              <df name="task">
+                <df name="function">
+                  <in>wrapper.h</in>
+                </df>
+              </df>
+              <df name="thread">
+                <df name="local">
+                  <df name="storage">
+                    <in>pointers.h</in>
+                  </df>
+                </df>
+              </df>
+              <in>hz.h</in>
+            </df>
+            <df name="garp">
+              <df name="tmr">
+                <in>interval.h</in>
+              </df>
+            </df>
+            <df name="heap">
+              <df name="poisoning">
+                <in>disabled.h</in>
+              </df>
+            </df>
+            <df name="httpd">
+              <df name="max">
+                <df name="req">
+                  <df name="hdr">
+                    <in>len.h</in>
+                  </df>
+                </df>
+                <df name="uri">
+                  <in>len.h</in>
+                </df>
+              </df>
+            </df>
+            <df name="int">
+              <df name="wdt">
+                <df name="check">
+                  <in>cpu1.h</in>
+                </df>
+                <df name="timeout">
+                  <in>ms.h</in>
+                </df>
+              </df>
+              <in>wdt.h</in>
+            </df>
+            <df name="ip">
+              <df name="lost">
+                <df name="timer">
+                  <in>interval.h</in>
+                </df>
+              </df>
+            </df>
+            <df name="ipc">
+              <df name="task">
+                <df name="stack">
+                  <in>size.h</in>
+                </df>
+              </df>
+            </df>
+            <df name="libsodium">
+              <df name="use">
+                <df name="mbedtls">
+                  <in>sha.h</in>
+                </df>
+              </df>
+            </df>
+            <df name="log">
+              <df name="bootloader">
+                <df name="level">
+                  <in>info.h</in>
+                </df>
+                <in>level.h</in>
+              </df>
+              <df name="default">
+                <df name="level">
+                  <in>info.h</in>
+                </df>
+                <in>level.h</in>
+              </df>
+              <in>colors.h</in>
+            </df>
+            <df name="lwip">
+              <df name="dhcp">
+                <df name="does">
+                  <df name="arp">
+                    <in>check.h</in>
+                  </df>
+                </df>
+                <df name="max">
+                  <df name="ntp">
+                    <in>servers.h</in>
+                  </df>
+                </df>
+              </df>
+              <df name="dhcps">
+                <df name="lease">
+                  <in>unit.h</in>
+                </df>
+                <df name="max">
+                  <df name="station">
+                    <in>num.h</in>
+                  </df>
+                </df>
+              </df>
+              <df name="loopback">
+                <df name="max">
+                  <in>pbufs.h</in>
+                </df>
+              </df>
+              <df name="max">
+                <df name="active">
+                  <in>tcp.h</in>
+                </df>
+                <df name="listening">
+                  <in>tcp.h</in>
+                </df>
+                <df name="raw">
+                  <in>pcbs.h</in>
+                </df>
+                <df name="udp">
+                  <in>pcbs.h</in>
+                </df>
+                <in>sockets.h</in>
+              </df>
+              <df name="netif">
+                <in>loopback.h</in>
+              </df>
+              <df name="so">
+                <df name="reuse">
+                  <in>rxtoall.h</in>
+                </df>
+                <in>reuse.h</in>
+              </df>
+            </df>
+            <df name="main">
+              <df name="task">
+                <df name="stack">
+                  <in>size.h</in>
+                </df>
+              </df>
+            </df>
+            <df name="make">
+              <df name="warn">
+                <df name="undefined">
+                  <in>variables.h</in>
+                </df>
+              </df>
+            </df>
+            <df name="mbedtls">
+              <df name="aes">
+                <in>c.h</in>
+              </df>
+              <df name="ccm">
+                <in>c.h</in>
+              </df>
+              <df name="ecdh">
+                <in>c.h</in>
+              </df>
+              <df name="ecdsa">
+                <in>c.h</in>
+              </df>
+              <df name="ecp">
+                <df name="dp">
+                  <df name="bp256r1">
+                    <in>enabled.h</in>
+                  </df>
+                  <df name="bp384r1">
+                    <in>enabled.h</in>
+                  </df>
+                  <df name="bp512r1">
+                    <in>enabled.h</in>
+                  </df>
+                  <df name="curve25519">
+                    <in>enabled.h</in>
+                  </df>
+                  <df name="secp192k1">
+                    <in>enabled.h</in>
+                  </df>
+                  <df name="secp192r1">
+                    <in>enabled.h</in>
+                  </df>
+                  <df name="secp224k1">
+                    <in>enabled.h</in>
+                  </df>
+                  <df name="secp224r1">
+                    <in>enabled.h</in>
+                  </df>
+                  <df name="secp256k1">
+                    <in>enabled.h</in>
+                  </df>
+                  <df name="secp256r1">
+                    <in>enabled.h</in>
+                  </df>
+                  <df name="secp384r1">
+                    <in>enabled.h</in>
+                  </df>
+                  <df name="secp521r1">
+                    <in>enabled.h</in>
+                  </df>
+                </df>
+                <df name="nist">
+                  <in>optim.h</in>
+                </df>
+                <in>c.h</in>
+              </df>
+              <df name="gcm">
+                <in>c.h</in>
+              </df>
+              <df name="hardware">
+                <in>aes.h</in>
+              </df>
+              <df name="have">
+                <in>time.h</in>
+              </df>
+              <df name="internal">
+                <df name="mem">
+                  <in>alloc.h</in>
+                </df>
+              </df>
+              <df name="key">
+                <df name="exchange">
+                  <df name="dhe">
+                    <in>rsa.h</in>
+                  </df>
+                  <df name="ecdh">
+                    <in>ecdsa.h</in>
+                    <in>rsa.h</in>
+                  </df>
+                  <df name="ecdhe">
+                    <in>ecdsa.h</in>
+                    <in>rsa.h</in>
+                  </df>
+                  <df name="elliptic">
+                    <in>curve.h</in>
+                  </df>
+                  <in>rsa.h</in>
+                </df>
+              </df>
+              <df name="pem">
+                <df name="parse">
+                  <in>c.h</in>
+                </df>
+                <df name="write">
+                  <in>c.h</in>
+                </df>
+              </df>
+              <df name="rc4">
+                <in>disabled.h</in>
+              </df>
+              <df name="ssl">
+                <df name="max">
+                  <df name="content">
+                    <in>len.h</in>
+                  </df>
+                </df>
+                <df name="proto">
+                  <df name="tls1">
+                    <in>1.h</in>
+                    <in>2.h</in>
+                  </df>
+                  <in>tls1.h</in>
+                </df>
+                <df name="session">
+                  <in>tickets.h</in>
+                </df>
+                <in>alpn.h</in>
+                <in>renegotiation.h</in>
+              </df>
+              <df name="tls">
+                <df name="server">
+                  <df name="and">
+                    <in>client.h</in>
+                  </df>
+                </df>
+                <in>client.h</in>
+                <in>enabled.h</in>
+                <in>server.h</in>
+              </df>
+              <df name="x509">
+                <df name="crl">
+                  <df name="parse">
+                    <in>c.h</in>
+                  </df>
+                </df>
+                <df name="csr">
+                  <df name="parse">
+                    <in>c.h</in>
+                  </df>
+                </df>
+              </df>
+            </df>
+            <df name="mdns">
+              <df name="max">
+                <in>services.h</in>
+              </df>
+            </df>
+            <df name="monitor">
+              <df name="baud">
+                <df name="other">
+                  <in>val.h</in>
+                </df>
+                <in>115200b.h</in>
+              </df>
+              <in>baud.h</in>
+            </df>
+            <df name="mqtt">
+              <df name="protocol">
+                <in>311.h</in>
+              </df>
+              <df name="transport">
+                <df name="websocket">
+                  <in>secure.h</in>
+                </df>
+                <in>ssl.h</in>
+                <in>websocket.h</in>
+              </df>
+            </df>
+            <df name="newlib">
+              <df name="stdin">
+                <df name="line">
+                  <df name="ending">
+                    <in>cr.h</in>
+                  </df>
+                </df>
+              </df>
+              <df name="stdout">
+                <df name="line">
+                  <df name="ending">
+                    <in>crlf.h</in>
+                  </df>
+                </df>
+              </df>
+            </df>
+            <df name="number">
+              <df name="of">
+                <df name="universal">
+                  <df name="mac">
+                    <in>address.h</in>
+                  </df>
+                </df>
+              </df>
+            </df>
+            <df name="openssl">
+              <df name="assert">
+                <df name="do">
+                  <in>nothing.h</in>
+                </df>
+              </df>
+            </df>
+            <df name="optimization">
+              <df name="assertions">
+                <in>enabled.h</in>
+              </df>
+              <df name="level">
+                <in>debug.h</in>
+              </df>
+            </df>
+            <df name="partition">
+              <df name="table">
+                <df name="custom">
+                  <in>filename.h</in>
+                </df>
+                <df name="single">
+                  <in>app.h</in>
+                </df>
+                <in>filename.h</in>
+                <in>md5.h</in>
+                <in>offset.h</in>
+              </df>
+            </df>
+            <df name="pthread">
+              <df name="stack">
+                <in>min.h</in>
+              </df>
+            </df>
+            <df name="reduce">
+              <df name="phy">
+                <df name="tx">
+                  <in>power.h</in>
+                </df>
+              </df>
+            </df>
+            <df name="spi">
+              <df name="flash">
+                <df name="rom">
+                  <df name="driver">
+                    <in>patch.h</in>
+                  </df>
+                </df>
+                <df name="writing">
+                  <df name="dangerous">
+                    <df name="regions">
+                      <in>aborts.h</in>
+                    </df>
+                  </df>
+                </df>
+              </df>
+              <df name="master">
+                <df name="isr">
+                  <df name="in">
+                    <in>iram.h</in>
+                  </df>
+                </df>
+              </df>
+              <df name="slave">
+                <df name="isr">
+                  <df name="in">
+                    <in>iram.h</in>
+                  </df>
+                </df>
+              </df>
+            </df>
+            <df name="spiffs">
+              <df name="cache">
+                <in>wr.h</in>
+              </df>
+              <df name="gc">
+                <df name="max">
+                  <in>runs.h</in>
+                </df>
+              </df>
+              <df name="max">
+                <in>partitions.h</in>
+              </df>
+              <df name="meta">
+                <in>length.h</in>
+              </df>
+              <df name="obj">
+                <df name="name">
+                  <in>len.h</in>
+                </df>
+              </df>
+              <df name="page">
+                <in>check.h</in>
+                <in>size.h</in>
+              </df>
+              <df name="use">
+                <df name="magic">
+                  <in>length.h</in>
+                </df>
+                <in>magic.h</in>
+                <in>mtime.h</in>
+              </df>
+              <in>cache.h</in>
+            </df>
+            <df name="stack">
+              <df name="check">
+                <in>none.h</in>
+              </df>
+            </df>
+            <df name="support">
+              <in>termios.h</in>
+            </df>
+            <df name="suppress">
+              <df name="select">
+                <df name="debug">
+                  <in>output.h</in>
+                </df>
+              </df>
+            </df>
+            <df name="system">
+              <df name="event">
+                <df name="queue">
+                  <in>size.h</in>
+                </df>
+                <df name="task">
+                  <df name="stack">
+                    <in>size.h</in>
+                  </df>
+                </df>
+              </df>
+            </df>
+            <df name="task">
+              <df name="wdt">
+                <df name="check">
+                  <df name="idle">
+                    <df name="task">
+                      <in>cpu0.h</in>
+                      <in>cpu1.h</in>
+                    </df>
+                  </df>
+                </df>
+                <df name="timeout">
+                  <in>s.h</in>
+                </df>
+              </df>
+              <in>wdt.h</in>
+            </df>
+            <df name="tcp">
+              <df name="oversize">
+                <in>mss.h</in>
+              </df>
+              <df name="queue">
+                <in>ooseq.h</in>
+              </df>
+              <df name="recvmbox">
+                <in>size.h</in>
+              </df>
+              <df name="snd">
+                <df name="buf">
+                  <in>default.h</in>
+                </df>
+              </df>
+              <df name="wnd">
+                <in>default.h</in>
+              </df>
+              <in>maxrtx.h</in>
+              <in>msl.h</in>
+              <in>mss.h</in>
+              <in>synmaxrtx.h</in>
+            </df>
+            <df name="tcpip">
+              <df name="recvmbox">
+                <in>size.h</in>
+              </df>
+              <df name="task">
+                <df name="affinity">
+                  <df name="no">
+                    <in>affinity.h</in>
+                  </df>
+                </df>
+                <df name="stack">
+                  <in>size.h</in>
+                </df>
+                <in>affinity.h</in>
+              </df>
+              <in>lwip.h</in>
+            </df>
+            <df name="timer">
+              <df name="queue">
+                <in>length.h</in>
+              </df>
+              <df name="task">
+                <df name="stack">
+                  <in>depth.h</in>
+                  <in>size.h</in>
+                </df>
+                <in>priority.h</in>
+              </df>
+            </df>
+            <df name="tracemem">
+              <df name="reserve">
+                <in>dram.h</in>
+              </df>
+            </df>
+            <df name="udp">
+              <df name="recvmbox">
+                <in>size.h</in>
+              </df>
+            </df>
+            <df name="ulp">
+              <df name="coproc">
+                <df name="reserve">
+                  <in>mem.h</in>
+                </df>
+              </df>
+            </df>
+            <df name="wl">
+              <df name="sector">
+                <df name="size">
+                  <in>4096.h</in>
+                </df>
+                <in>size.h</in>
+              </df>
+            </df>
+            <in>python.h</in>
+            <in>toolprefix.h</in>
+          </df>
+          <in>sdkconfig.h</in>
+        </df>
+        <df name="jsmn">
+          <df name="src">
+          </df>
+        </df>
+        <df name="json">
+          <df name="cJSON">
+          </df>
+        </df>
+        <df name="libsodium">
+          <df name="libsodium">
+            <df name="src">
+              <df name="libsodium">
+                <df name="crypto_aead">
+                  <df name="chacha20poly1305">
+                    <df name="sodium">
+                    </df>
+                  </df>
+                  <df name="xchacha20poly1305">
+                    <df name="sodium">
+                    </df>
+                  </df>
+                </df>
+                <df name="crypto_auth">
+                  <df name="hmacsha256">
+                  </df>
+                  <df name="hmacsha512">
+                  </df>
+                  <df name="hmacsha512256">
+                  </df>
+                </df>
+                <df name="crypto_box">
+                  <df name="curve25519xsalsa20poly1305">
+                  </df>
+                </df>
+                <df name="crypto_core">
+                  <df name="curve25519">
+                    <df name="ref10">
+                    </df>
+                  </df>
+                  <df name="hchacha20">
+                  </df>
+                  <df name="hsalsa20">
+                    <df name="ref2">
+                    </df>
+                  </df>
+                  <df name="salsa">
+                    <df name="ref">
+                    </df>
+                  </df>
+                </df>
+                <df name="crypto_generichash">
+                  <df name="blake2b">
+                    <df name="ref">
+                    </df>
+                  </df>
+                </df>
+                <df name="crypto_hash">
+                  <df name="sha256">
+                  </df>
+                  <df name="sha512">
+                  </df>
+                </df>
+                <df name="crypto_kdf">
+                  <df name="blake2b">
+                  </df>
+                </df>
+                <df name="crypto_kx">
+                </df>
+                <df name="crypto_onetimeauth">
+                  <df name="poly1305">
+                    <df name="donna">
+                    </df>
+                  </df>
+                </df>
+                <df name="crypto_pwhash">
+                  <df name="argon2">
+                  </df>
+                  <df name="scryptsalsa208sha256">
+                    <df name="nosse">
+                    </df>
+                  </df>
+                </df>
+                <df name="crypto_scalarmult">
+                  <df name="curve25519">
+                    <df name="ref10">
+                    </df>
+                  </df>
+                </df>
+                <df name="crypto_secretbox">
+                  <df name="xsalsa20poly1305">
+                  </df>
+                </df>
+                <df name="crypto_shorthash">
+                  <df name="siphash24">
+                    <df name="ref">
+                    </df>
+                  </df>
+                </df>
+                <df name="crypto_sign">
+                  <df name="ed25519">
+                    <df name="ref10">
+                    </df>
+                  </df>
+                </df>
+                <df name="crypto_stream">
+                  <df name="chacha20">
+                    <df name="ref">
+                    </df>
+                  </df>
+                  <df name="salsa20">
+                    <df name="ref">
+                    </df>
+                  </df>
+                  <df name="xsalsa20">
+                  </df>
+                </df>
+                <df name="crypto_verify">
+                  <df name="sodium">
+                  </df>
+                </df>
+                <df name="randombytes">
+                </df>
+                <df name="sodium">
+                </df>
+              </df>
+            </df>
+          </df>
+          <df name="port">
+            <df name="crypto_hash_mbedtls">
+            </df>
+          </df>
+        </df>
+        <df name="log">
+        </df>
+        <df name="lwip">
+          <df name="apps">
+            <df name="dhcpserver">
+            </df>
+            <df name="ping">
+            </df>
+          </df>
+          <df name="lwip">
+            <df name="src">
+              <df name="api">
+              </df>
+              <df name="apps">
+                <df name="sntp">
+                </df>
+              </df>
+              <df name="core">
+                <df name="ipv4">
+                </df>
+                <df name="ipv6">
+                </df>
+              </df>
+              <df name="netif">
+              </df>
+            </df>
+          </df>
+          <df name="port">
+            <df name="esp32">
+              <df name="debug">
+              </df>
+              <df name="freertos">
+              </df>
+              <df name="netif">
+              </df>
+            </df>
+          </df>
+        </df>
+        <df name="main">
+        </df>
+        <df name="mbedtls">
+          <df name="mbedtls">
+            <df name="library">
+            </df>
+          </df>
+          <df name="port">
+          </df>
+        </df>
+        <df name="mdns">
+        </df>
+        <df name="micro-ecc">
+          <df name="micro-ecc">
+          </df>
+        </df>
+        <df name="mqtt">
+          <df name="esp-mqtt">
+            <df name="lib">
+            </df>
+          </df>
+        </df>
+        <df name="newlib">
+        </df>
+        <df name="nghttp">
+          <df name="nghttp2">
+            <df name="lib">
+            </df>
+          </df>
+          <df name="port">
+          </df>
+        </df>
+        <df name="nvs_flash">
+          <df name="src">
+          </df>
+        </df>
+        <df name="openssl">
+          <df name="library">
+          </df>
+          <df name="platform">
+          </df>
+        </df>
+        <df name="partition_table">
+        </df>
+        <df name="pthread">
+        </df>
+        <df name="sdmmc">
+        </df>
+        <df name="smartconfig_ack">
+        </df>
+        <df name="soc">
+          <df name="esp32">
+          </df>
+          <df name="src">
+          </df>
+        </df>
+        <df name="spi_flash">
+        </df>
+        <df name="spiffs">
+          <df name="spiffs">
+            <df name="src">
+            </df>
+          </df>
+        </df>
+        <df name="tcp_transport">
+        </df>
+        <df name="tcpip_adapter">
+        </df>
+        <df name="ulp">
+        </df>
+        <df name="vfs">
+        </df>
+        <df name="wear_levelling">
+        </df>
+        <df name="wpa_supplicant">
+          <df name="port">
+          </df>
+          <df name="src">
+            <df name="crypto">
+            </df>
+            <df name="fast_crypto">
+            </df>
+            <df name="wpa2">
+              <df name="eap_peer">
+              </df>
+              <df name="tls">
+              </df>
+              <df name="utils">
+              </df>
+            </df>
+            <df name="wps">
+            </df>
+          </df>
+        </df>
+        <df name="xtensa-debug-module">
+        </df>
+      </df>
+      <df name="main">
+        <in>alien_main.cpp</in>
+      </df>
+    </df>
+  </logicalFolder>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Default" type="0">
+      <toolsSet>
+        <developmentServer>localhost</developmentServer>
+        <platform>3</platform>
+      </toolsSet>
+      <compile>
+        <compiledirpicklist>
+          <compiledirpicklistitem>.</compiledirpicklistitem>
+          <compiledirpicklistitem>${AUTO_FOLDER}</compiledirpicklistitem>
+        </compiledirpicklist>
+        <compiledir>${AUTO_FOLDER}</compiledir>
+        <compilecommandpicklist>
+          <compilecommandpicklistitem>${MAKE} ${ITEM_NAME}.o</compilecommandpicklistitem>
+          <compilecommandpicklistitem>${AUTO_COMPILE}</compilecommandpicklistitem>
+        </compilecommandpicklist>
+        <compilecommand>${AUTO_COMPILE}</compilecommand>
+      </compile>
+      <dbx_gdbdebugger version="1">
+        <gdb_pathmaps>
+        </gdb_pathmaps>
+        <gdb_interceptlist>
+          <gdbinterceptoptions gdb_all="false" gdb_unhandled="true" gdb_unexpected="true"/>
+        </gdb_interceptlist>
+        <gdb_options>
+          <DebugOptions>
+          </DebugOptions>
+        </gdb_options>
+        <gdb_buildfirst gdb_buildfirst_overriden="false" gdb_buildfirst_old="false"/>
+      </dbx_gdbdebugger>
+      <nativedebugger version="1">
+        <engine>gdb</engine>
+      </nativedebugger>
+      <runprofile version="9">
+        <runcommandpicklist>
+          <runcommandpicklistitem>"${OUTPUT_PATH}"</runcommandpicklistitem>
+        </runcommandpicklist>
+        <runcommand>"${OUTPUT_PATH}"</runcommand>
+        <rundir>.</rundir>
+        <buildfirst>false</buildfirst>
+        <terminal-type>0</terminal-type>
+        <remove-instrumentation>0</remove-instrumentation>
+        <environment>
+        </environment>
+      </runprofile>
+    </conf>
+  </confs>
+</configurationDescriptor>
